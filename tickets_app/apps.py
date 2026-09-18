@@ -1,0 +1,6 @@
+from django.apps import AppConfig
+
+
+class TicketsAppConfig(AppConfig):
+    name = 'tickets_app'
+    verbose_name = 'Tickets'

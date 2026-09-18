@@ -1,0 +1,27 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static "home_app/css/style.css" %}">
+</head>
+<body>
+    <div class="container">
+        <h1 id="test" class="text text-center">
+            this is home page
+        </h1>
+        <hr>
+        <a href="/course/list" class="btn btn-danger btn-block">
+            course list
+        </a>
+        <hr>
+        <div>
+            <img style="height: 500px; width: 1200px;" src="{% static "home_app/img/1.jpg" %}" alt="">
+            <hr>
+        </div>
+    </div>
+</body>
+</html>
